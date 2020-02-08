@@ -1,0 +1,62 @@
+
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" herf="C:\Users\Sandipan\Desktop\calculator\calculator.css">
+</head>
+<body>
+    <p>CALCULATOR</p>
+    
+    <div id="calculator">
+    
+        <form>
+            <input type="text" id="display" disabled><br/>
+            
+            <input type="button" value="C" id="keys" onclick="AddToScreen('C')">
+            <input type="button" value="<--" id="keys" onclick="backspace()">
+            <input type="button" value="sqrt" id="keys" onclick="SquareRoot()">
+            <input type="button" value="X^3" id="keys" onclick="Power(3)">
+            <br>
+           
+            <input type="button" value="9" id="keys" onclick="AddToScreen('9')">
+            <input type="button" value="8" id="keys" onclick="AddToScreen('8')">
+            <input type="button" value="7" id="keys" onclick="AddToScreen('7')">
+            <input type="button" value="+" id="keys" onclick="AddToScreen('+')">
+            <br>
+            
+            <input type="button" value="6" id="keys" onclick="AddToScreen('C')">
+            <input type="button" value="5" id="keys" onclick="AddToScreen('C')">
+            <input type="button" value="4" id="keys" onclick="AddToScreen('C')">
+            <input type="button" value="-" id="keys" onclick="AddToScreen('-')">
+            <br>
+            
+            <input type="button" value="3" id="keys" onclick="AddToScreen('3')">
+            <input type="button" value="2" id="keys" onclick="AddToScreen('2')">
+            <input type="button" value="1" id="keys" onclick="AddToScreen('1')">
+            <input type="button" value="*" id="keys" onclick="AddToScreen('*')">
+            <br>
+
+            <input type="button" value="0" id="keys" onclick="AddToScreen('0')">
+            <input type="button" value="." id="keys" onclick="AddToScreen('.')">
+            <input type="button" value="%" id="keys" onclick="AddToScreen('%')">
+            <input type="button" value="/" id="keys" onclick="AddToScreen('/')">
+            <br>
+            
+            <input type = "button" value = "abs" id="keys" onclick="abso()">
+            <input type = "button" value = "ceil" id="keys" onclick="cel()">
+            <input type = "button" value = "floor" id="keys" onclick="flr()">
+            <input type = "button" value = "exp" id="keys" onclick="expo()">
+            <br>
+            
+            <input type="button" value="log" id="keys" onclick="log1()">
+            <input type="button" value="round" id="keys" onclick="roundup()">
+            <input type="button" value="=" id="equal" onclick="answer()">
+            <br>
+                    
+       </form>
+    </div>
+    <script src="C:\Users\Sandipan\Desktop\calculator\calculator.js"></script>
+</body>
+    
+</html>
+
